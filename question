@@ -1,0 +1,23 @@
+The count-and-say sequence is defined as:
+
+countAndSay(1) = "1"
+countAndSay(n) is the run-length encoding of countAndSay(n - 1).
+
+Given a positive integer n, return the nth element of the count-and-say sequence.
+
+Example 1:
+
+Input: n = 4
+Output: "1211"
+
+Explanation:
+
+1 → "1"
+2 → "11"
+3 → "21"
+4 → "1211"
+
+Example 2:
+
+Input: n = 1
+Output: "1"
